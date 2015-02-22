@@ -1,0 +1,73 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * AAP-roots
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#wellcome, #results
+{
+    margin-left: auto;
+    font-family: "Colibri";
+    font-size: 20px;
+}
+
+#data
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Colibri";
+    font-size: 22px;
+}
+
+#c
+{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Colibri";
+    font-size: 18px;
+}
+
+#gender, #triage, #usefull
+{
+    display: inline;
+}
+
+#b
+{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 30px;
+}
